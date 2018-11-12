@@ -1,0 +1,12 @@
+.text{
+  align: center;
+  color: red;
+  border: 2px red solid;
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+.text2{
+  border: 4px;
+  border-color: blue;
+}
