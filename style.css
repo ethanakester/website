@@ -1,31 +1,114 @@
-.banner{
-  background-image:
+a{
+
 }
 
-.bg{
-  background-color: grey;
-}
-body, html{
-  /* height: 100%;
-  background-image: url(https://nintendoeverything.com/wp-content/uploads/smash-bros-melee.jpg);
-  background-position: center;
+body{
+  height: 100%;
+  background-image: url("https://cdn.vox-cdn.com/thumbor/w58ecI4YPX8PMh0jmgVelH00gqI=/0x42:1024x725/1200x800/filters:focal(0x42:1024x725)/cdn.vox-cdn.com/uploads/chorus_image/image/16248547/super_smash_bros_003.0.jpg");
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.challonge{
+  position: relative;
+  left: 82px;
+  top: 16px;
+}
+
+.discord{
+  position: relative;
+  left: 55px;
+  top: 25px;
+}
+
+.fa{
+  padding: 15px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover{
+  opacity: 0.7;
+}
+
+.fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter{
+  background: #55ACEE;
+  color: white;
+  position: relative;
+  left: 30px;
+}
+
+.fa-youtube{
+  background: red;
+  color: white;
+  position: relative;
+  left: 115px;
+}
+
+h3{
+  color: IndianRed;
 }
 
 .info{
-  background-color: #303030;
+  background-color: rgba(30, 30, 30, 0.9);
   color: #DCDCDC;
   width: 1050px;
   position: absolute;
-  left: 150px;
-  padding: 20px 10px 20px 20px;
+  left: 145px;
+  padding: 20px 0px 20px 20px;
   font-family: Georgia;
 }
+
+.media{
+  position: absolute;
+  left: 750px;
+  top: 600px;
+}
+
 .montage{
   position: absolute;
-  bottom: 125px;
+  bottom: 80px;
   left: 680px;
+}
+
+.singles_head{
+  background-color: rgba(30, 30, 30, 0.9);
+  padding: 10px 10px 30px 10px;
+  z-index: 1;
+  color: MediumAquamarine;
+  text-align: center;
+}
+
+.singles_stuff{
+  position: absolute;
+  top: 900px;
+  left: 260px;
+}
+
+.stream{
+  z-index: 2;
+  position: relative;
+  bottom: 650px;
+  left: 30px;
+}
+.streamhead{
+  background-color: rgba(30, 30, 30, 0.9);
+  padding: 10px 330px 650px 330px;
+  z-index: 1;
+  color: MediumAquamarine;
+}
+
+.stream_stuff{
+  position: absolute;
+  left: 250px;
+
 }
 
 .topnav{
@@ -40,6 +123,7 @@ body, html{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: Georgia;
   display:inline-block;
   position: relative;
   margin: 0 auto;
