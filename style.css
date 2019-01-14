@@ -102,7 +102,7 @@ body{
   left: 115px;
 }
 
-h1.stepTitle, h2.exec_title{
+h1.stepTitle, h2.exec_title, h1.Rules{
   color: GoldenRod;
 }
 
@@ -110,7 +110,7 @@ h3{
   color: GoldenRod;
 }
 
-.info, .PR, .ranking, .step, .exec_info{
+.info, .PR, .step, .exec_info, .rules{
   background-color: rgb(30, 30, 30);
   color: white;
   width: auto;
@@ -118,6 +118,10 @@ h3{
   padding: 20px 20px 47px 65px;
   font-family: Georgia;
   height: 150%;
+}
+
+.link{
+  color: GoldenRod;
 }
 
 .media{
@@ -149,6 +153,7 @@ h3{
   text-align: center;
   background-color: rgb(30, 30, 30);
   color: GoldenRod;
+  position: relative;
   padding-top: 5px;
   padding-bottom: 10px;
 }
@@ -180,7 +185,7 @@ h3{
   display:inline-block;
   position: relative;
   margin: 0 auto;
-  width: 16.666%;
+  width: 20%;
 }
 
 .topnav a:hover{
